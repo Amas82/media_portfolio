@@ -1,0 +1,238 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Abida Masoud's Media Portfolio | Index | </title>
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/styles.css">
+</head>
+
+
+
+<!--- JavaScript --->
+<script>
+	window.onload = function() {
+		var main = document.querySelector("#main");
+		var myMenu = document.querySelector("#myMenu");
+		var close = document.querySelector("#close");
+		var nav = document.querySelector("#nav");
+
+		myMenu.addEventListener("click", openMenu, false);
+		close.addEventListener("click", closeMe, false);
+
+		function openMenu() {
+			nav.style.display = "block";
+			myMenu.style.display = "none";
+			main.style.marginLeft = "25%";
+		}
+
+		function closeMe() {
+			nav.style.display = "none";
+			myMenu.style.display = "block";
+			main.style.marginLeft = "0";
+		}
+	}
+
+	window.onscroll = function() {
+		scrollFunction()
+	};
+
+	function scrollFunction() {
+		if (document.body.scrollTop > 25 || document.documentElement.scrollTop > 25) {
+			document.getElementById("myBtn").style.display = "block";
+		} else {
+			document.getElementById("myBtn").style.display = "none";
+		}
+	}
+
+	function topFunction() {
+		document.body.scrollTop = 0;
+		document.documentElement.scrollTop = 0;
+	}
+
+</script>
+
+<body>
+	<!--******************-->
+	<!-- Header container -->
+	<!--******************-->
+	<div class="hero-image">
+		<img src="images/portfolio_image.jpg" alt="logo" height="180px">
+
+		<div class="hero-text">
+
+			<h2 style="font-size:40px">Hey, I'm Abida Masoud</h2>
+
+			<p>Welcome to my media portfolio. Take a look at the artifacts that I have created during my studies in DeVry University.</p>
+
+			<button><a href="Abida_resume_final.pdf">Download to view my Resume</a></button>
+			<button><a href="Abida_M_CoverLetter1.pdf">Download to view my Cover Letter</a></button>
+
+		</div>
+	</div>
+	<nav>
+		<a href="#" id="menu-icon"></a>
+		<ul>
+			<li><a href="index.html">Home</a> | </li>
+			<li><a href="Gallery.html">Gallery</a> | </li>
+			<li><a href="Resume.html">Resume</a> | </li>
+			<li><a href="CoverLetter.html">Cover Letter</a> | </li>
+			<li><a href="About.html">About me</a> | </li>
+			<li><a href="Contact.html">Contact me</a> | </li>
+		</ul>
+	</nav>
+	<section>
+
+		<center>
+			<h1>Gallery</h1>
+		</center>
+		<br>
+
+		<div class="gallery">
+
+			<h5><b>Artifact:</b><i> Sea Marine Rescue Park website</i></h5>
+
+			<center><a target="_blank" href="images/Screenshot%20(182).png">
+					<img class="responsive" src="images/Screenshot%20(182).png" alt="Sea Marine Rescue Park Website">
+				</a></center>
+			<div class="desc">
+
+				<p><b>Goal:</b> To design a one-page website that develops into a three-page website utilizing HTML5, CSS3, and JavaScript by clicking on the hamburger menus on the left and right to jump directly to that page. Also, I added 3 columns for the primary information focused on educating the audience.</p>
+
+				<p><b>Process used:</b> The special features I added on the website are the two hamburger menus on the left and the right. The vertical menus are hidden, and I styled the containers and buttons. I created a header block with the background of teal and the bar to contain our button links with a background color of sand. The style and color palette are meant to well with the project topic. I created buttons to sign up as a member of the Team and to get more information about ‘become part of community member’ and ‘Sea Marine conservation volunteer’ by clicking on ‘learn more’ and it will go directly to that page. Also, I added the signup form to my website, which are the ‘homepage’ and ‘academy’ page. I add the “topFunction” to show the "Top" button at the bottom of the page above the footer and stretching all the way across the page. I animated the second image so when you click on navigation menu there are three different images that shows one image animated from the left, second image animated from the right and third image animated from down. On the footer I showed the copyright, which was an image created by me.</p>
+			</div>
+		</div>
+
+
+		<h5><b>Artifact:</b> <i>Sea Marine Rescue Park animation website</i></h5>
+		<div class="gallery">
+			<center><a target="_blank" href="images/Screenshot%20(184).png">
+					<img class="responsive" src="images/Screenshot%20(184).png" alt="Sea Marine Rescue Park animate website">
+				</a></center>
+			<center>
+				<p><b><i>The main homepage to the animation website.</i></b></p>
+			</center>
+
+			<p><b>Goal:</b> The main homepage to the animation website. I animated the logo, the banner which is the ‘Sea Life Park’, title which is ‘Sea marine entertainment’ and images. Also, I did to all the navigation menu as well when you click each of the navigation menus. Create a single page animation Portfolio website showing a minimum of six HTML5 web animation demonstrations from the class and the animation website were to be related to the topic that I am interested in which is saving the Sea marine. The visual style of the work is reflected in the theme, using CSS for responsive layouts, font, and color attributes.</p>
+
+			<center><a target="_blank" href="images/Screenshot%20(185).png">
+					<img class="responsive" src="images/Screenshot%20(185).png" alt="Sea Marine Rescue Park animate website">
+				</a></center>
+			<center>
+				<p><b><i>This animated website is related to the image from the first image however, I used a different approach of designing this animation website.</i></b></p>
+			</center>
+			<div class="desc">
+
+				<p><b>Goal:</b> The main purpose of these two different animated websites is show the viewers a distinguish approach for them to become interested in the animated website. It grabs their attention to major issue in current society.</p>
+
+				<p><b>Process used:</b> This animated website is related to the image from the first image however, I used a different approach of designing this animation website. The second images show the navigation menu on the left side instead of the top of the page. I created a background of teal color to relate to theme of the topic. I wanted to create all six menus from the hidden hamburger menu to show in ocean blue with an image ‘Sea Life Park’ as a banner. I created animation to the ‘Sea Life Sea Happy’ logo, the title, and the image from bottom of the title. I briefly inform the audience about each of the six navigation menu buttons. Also, I created a topFunction to go directly to the top of the page.
+			</div>
+		</div>
+
+		<h5><b>Artifact:</b> <i>Save Our Ocean</i></h5>
+		<div class="gallery">
+			<center><a target="_blank" href="images/Screenshot%20(187).png">
+					<img class="responsive" src="images/Screenshot%20(187).png" alt="Save Our Ocean">
+				</a></center>
+			<center>
+				<p><b><i>I learned how to lay out the foundation of a website and work with CSS, JavaScript and jQuery. To create the forms, you need JavaScript form validation for the key fields in the contact form. I have taken advantage of adding the social media on the dashboard. The social media peek-out sidebar at the left edge of the browser window stays hidden until the user hovers over it which then reveals the various social media icons.</i></b></p>
+			</center>
+
+			<center><a target="_blank" href="images/Screenshot%20(188).png">
+					<img class="responsive" src="images/Screenshot%20(188).png" alt="Save Our Ocean">
+				</a></center>
+
+			<center>
+				<p><b><i>I created an advertisement that relates to the topic ‘Save Our Ocean’. Below the image I created three columns to read as an article.</i></b></p>
+			</center>
+
+			<center><a target="_blank" href="images/Screenshot%20(203).png">
+					<img class="responsive" src="images/Screenshot%20(203).png" alt="Save Our Ocean">
+				</a></center>
+
+			<div class="desc">
+
+				<p><b>Goal:</b> My title is "Save the Ocean", which is short and gives attention to the concept. This course project was to learn some new things about layout, CSS timing, CSS responses, and JavaScript interactivity. jQuery is a JavaScript library that includes pre-built functions that makes it easier to add interactivity, animations, and other effects, such as hover effects to the page without adding a lot of JavaScript code. Media queries work by specifying certain conditions and applying a specific stylesheet to them. Media queries are used in responsive web design, which allows for a site to be viewed on a variety of screen sizes and browsers.</p>
+
+				<p><b>Process used:</b> My website shows a proper contact page and error message. To create the forms, you need JavaScript form validation for the key fields in the contact form. I have taken advantage of adding the social media on the dashboard. The social media peek-out sidebar at the left edge of the browser window stays hidden until the user hovers over it which then reveals the various social media icons. When the users hover their mouse over the various social media slidebar it animates the various social media icons. In my website I added four images to put in the sliders. The images move from left or right in the sliders. There is a brief description for each of the images in the hide and show captions. Once you click on an image, it shows an article and images in new webpages as shown below.</p>
+			</div>
+		</div>
+		<h5><b>Artifact:</b> <i>Save Our Ocean full-page scroll website</i></h5>
+		<div class="gallery">
+			<center><a target="_blank" href="images/Screenshot%20(201).png">
+					<img class="responsive" src="images/Screenshot%20(201).png" alt="Save Ocean">
+				</a></center>
+			<div class="desc">
+
+				<p><b>Goal:</b> I was to create a full-page scroll with five sections, along with two sections that contain slides that scroll horizontally. How I animated my full-page scroll website was intended to grab the viewers’ attention. It was important to jump directly to the homepage, which is the first image. The course project showed me many ways to connect with the user and to take interest with the websites I have created. It also guided me to pursue the skills and resources that I need for my future career.</p>
+
+				<p><b>Process used:</b> This website shows an animation as a full-page scroll slide show. I created the menus, header, short title for each of the pages, different images, background colors to be presented as you scroll down the full page. If you do not want to scroll down, you can click on the links. All of the menus for the text are in bold, gray color and they are interactive and responsive. If you click on the home menu it will go back to the homepage. The full-page scroll is related to my website. The menus options show 'Home', ‘Save Ocean', ‘Ocean health', 'Take Action' and 'Ocean Beauty'. The header, title, and image match my website, and the images are center. The second and fifth menus shows the horizontal sliders. There are three sliders that I created. The header and the title show a background black color to create contrast with the rest of the page.</p>
+			</div>
+		</div>
+		<h5><b>Artifact:</b> <i>Divine Lip Bliss</i></h5>
+		<div class="gallery">
+			<center><a target="_blank" href="images/Screenshot%20(190).png">
+					<img class="responsive" src="images/Screenshot%20(190).png" alt="Divine Lip Bliss">
+				</a></center>
+
+			<br>
+
+			<center><a target="_blank" href="images/Screenshot%20(192).png">
+					<img class="responsive" src="images/Screenshot%20(192).png" alt="Divine Lip Bliss">
+				</a></center>
+
+			<center>
+				<p><b><i>The navigation menu bar is not active, but the site is responsive across different device sizes.</i></b></p>
+			</center>
+			<div class="desc">
+
+				<p><b>Goal:</b> I had to create a responsive website for a fictional product that can be viewed across different device sizes; using media queries to control the layout for desktop, tablet, and phone. I had to create a visual idea for the fictional product through a name, product features, benefits, and target market. Also keeping in mind, the value proposition or features that the fictional product had to be unique.</p>
+
+				<p><b>Process used:</b> This was the hero website which features a fictional product. The company mission statement and services have links provided on the website. The elements of the website collectively catch the user's eye through the structure, functionality, and website visuality. There are key elements of an effective way to create and design the website. The navigation gives a hover effect with the products and ‘about us’ links and links within a page’s content to help users jump directly to a page to find the information about the company's mission statement, original logo for the company, and appropriate images and colors to matches the product. Also, the hover effect changes it colors when the mouse hovers over the menu links. I added the @media query and I included the hover drop down navigation menu for a subhead to the fictional product website. The selection of typeface is readable and tells a story and the hero image is relevant to the site. I briefly summarized the product features, benefits, target market and what makes the product unique.</p>
+			</div>
+		</div>
+		<h5><b>Artifact:</b> <i>Divine Lip Bliss</i></h5>
+
+		<center><a target="_blank" href="images/Screenshot%20(194).png">
+				<img class="responsive" src="images/Screenshot%20(194).png" alt="Divine Lip Bliss">
+			</a></center>
+		<p>
+		</p>
+		<center><a target="_blank" href="images/Screenshot(195).png">
+				<img class="responsive" src="images/Screenshot(195).png" alt="Divine Lip Bliss">
+			</a></center>
+		<center>
+			<p><b><i>I activated the ‘Divine Lip Bliss’ button so that it is visible on the center of the page and directing it to the homepage.</i></b></p>
+		</center>
+
+		<div class="desc">
+
+			<p><b>Goal:</b> This website includes active navigation menu and responsive layout across different device sizes. It hovers the navigation menu bar and changes to a light color on the drop-down menu for the subhead menu link. In the next slide I changed the navigation menu bar location because I wanted to create the menu-icon image for tablet and mobile in the site. The promotion homepage shows the highlights for the promotion by adding it as an image. I created the highlights promotion on the Adobe XD. Also, I added a registration form to my website so that the customers can register as a member to receive promotions. I included a client validation for the form fields, and “Thank-You” as they exit the site.</p>
+
+			<p><b>Process used:</b> The promotion homepage shows the highlights for the promotion by adding it as an image. I created the highlights promotion on the Adobe XD. Also, I added a registration form to my website so that the customers can register as a member to receive promotions. I included a client validation for the form fields, and “Thank-You” as they exit the site.</p>
+		</div>
+	</section>
+	<div class="myBtn" onclick="topFunction()" id="myBtn" title="Go to top">Top</div>
+
+	<footer>
+		<small><b>Copyright &#169; 2021. by Abida Masoud. All Rights Reserved.</b></small>
+		<center>
+			<div class="social-links text-center">
+				<ul class="social-center">
+					<li class="list-center-item"><a href="#"><i class="fa fa-google social-icon" aria-hidden="true"></i></a></li>
+					<li class="list-center-item"><a href="#"><i class="fa fa-envelope social-icon" aria-hidden="true"></i></a></li>
+					<li class="list-center-item"><a href="#"><i class="fa fa-yahoo social-icon" aria-hidden="true"></i></a></li>
+					<li class="list-center-item"><a href="#"><i class="fa fa-linkedin social-icon" aria-hidden="true"></i></a></li>
+					<li class="list-center-item"><a href="#"><i class="fa fa-facebook social-icon" aria-hidden="true"></i></a></li>
+					<li class="list-center-item"><a href="#"><i class="fa fa-instagram social-icon" aria-hidden="true"></i></a></li>
+				</ul>
+			</div>
+		</center>
+	</footer>
+</body>
+
+</html>
